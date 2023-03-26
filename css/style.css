@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  background-olor: black;
+}
+
+#left-panel {
+  height: 100%;
+  width: 300px;
+  background-color: #ff3333;
+  position: fixed;
+  margin-top: -70px;
+}
+
+.menu {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  line-height: 35px;
+  font-size: 1.8em
+}
+
+.panel-menu {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+}
+
+.panel-menu ul {
+  list-style: none;
+  width: 150px;
+}
+
+.panel-menu ul li {
+  font-size: 20px;
+  width: 230px;
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.panel-menu a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: wheat;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.panel-menu ul li:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+#right-panel {
+  margin-left: 300px;
+}
+
+h1 {
+  width: 800px;
+  font-size: 4em;
+  color: black;
+  margin: 70px;
+}
+
+.showcase {
+  text-align: center;
+  color: red;
+  width: 300px;
+  margin-top: -50px;
+  margin-left: 35px;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+hr {
+  width: 80px;
+  height: 10px;
+  margin-top: 20px;
+  margin-left: 70px;
+  background-color: red;
+  border-radius: 50px;
+}
+
+#gallery {
+  margin-top: 50px;
+}
+
+table {
+  margin: 30px;
+}
+
+table tr td:hover img {
+  filter: grayscale(5);
+  cursor: pointer;
+}
+
+#two-paras h1 {
+  text-align: center;
+  width: 300px;
+}
+
+.one {
+  margin-top: -40px;
+  margin-bottom: 20px
+}
+
+#two-paras p {
+  color: black;
+  font-size: 20px;
+  width: 950px;
+  margin-left: 50px;
+}
+
+#pro-info {
+  height: 350px;
+  width: 300px;
+  margin-left: 39px;
+  margin-top: 50px;
+  background-color: #ebebe0;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.pro-image {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+}
+
+.pro-name {
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 25px
+}
+
+.pro-grade {
+  color: #a3a375;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 10px
+}
+
+.pro-data {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#pro-info::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+#package p {
+  color: black;
+  font-size: 20px;
+  width: 950px;
+  margin-left: 50px;
+}
+
+.pack-table tr {
+  padding: 20px;
+  background-color: gray;
+  font-size: 2em;
+}
